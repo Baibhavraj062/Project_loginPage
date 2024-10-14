@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;  
+    font-family: "Trirong", serif;
+    box-sizing: border-box;
+}
+html,body{
+ display:grid;
+ height: 100%;
+ place-items:center;
+ background:#1abc9c;
+}
+.wapper{
+    width: 380px;
+    border-radius: 5px;
+    background: #fff;
+}
+.wapper .tit{
+line-height: 80px;
+background:#dc14ad;
+padding-left: 20px;
+border-radius: 5px 5px 0px 0px;
+color: #fff;
+font-size: 25px;
+font-weight: 300px;
+}
+.wapper form{
+    padding: 30px 20px 25px 20px  ;
+}
+.wapper form .first{
+    height: 45px;
+    /* background: #ff0000; */
+    margin-bottom: 15px;
+    position: relative;
+}
+.wapper form .first input{
+  padding-left: 60px;
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+}
+.wapper form .first i{
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    color: #fff;
+    font-size: 18px;
+    background: #16a085;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px 0px 0px 5px ;
+
+}
+.wapper form .button input{
+    padding-left: 0px;
+    background: #1abc9c;
+}
+#button{
+    padding-left: 0px;
+    background: #16a085;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 200;
+}
+.forgot{
+    margin-bottom: 5px;
+}
+.signup{
+    margin-top:25px;
+}
